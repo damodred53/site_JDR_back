@@ -1,0 +1,14 @@
+const mongoose = require('mongoose');
+
+
+const Scene = mongoose.model('Scene', {
+pseudonyme: String,
+  title: String,
+  difficulties: String,
+  duration: Number,
+  description: String,
+  explication: String,
+  })
+
+
+  module.exports = mongoose.model("Scene");
